@@ -1,0 +1,289 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* -------------------
+    utilities
+-------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------------------------------
+    top banner and container items
+------------------------------- */
+
+
+.top-banner {
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin-top: 50px;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.heading-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: lightgray;
+    padding-bottom: 30px;
+    padding-right: 35px;
+}
+
+.banner-texts {
+
+    margin: 111px 106px;
+    margin-right: -24Px;
+    width: 50%;
+
+}
+
+.banner-photo img {
+    height: 94%;
+    padding-top: 39px;
+    margin-right: 79px;
+    margin-left: 24px;
+
+}
+
+/* ---------icon---------- */
+.fa-angle-right {
+    padding-left: 10px;
+}
+
+
+/* ------------------------------------------
+    Live Button Transition And Animation
+---------------------------------------- */
+
+.live-button {
+    background: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    margin: 0;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: margin 1s, transform 1s;
+}
+
+.top-banner:hover .live-button {
+    margin: 70px;
+    background-color: #ee5050;
+
+}
+
+.link-buttons-box {
+    margin-top: 130px;
+    padding: 30px;
+
+    border-radius: 10px;
+    background-color: #161616;
+    width: 250px;
+    height: 250px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.link-buttons {
+
+    display: grid;
+    grid-template-rows: repeat(1, fr);
+    grid-row-gap: 30px;
+
+
+}
+
+.link-button-one {
+    border: #161616;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    padding: 16px 25px;
+    margin: 30;
+
+}
+
+.link-button-one:hover {
+    background-color: lightgray;
+}
+
+.link-button-two {
+    border: #161616;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    padding: 16px 25px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.link-button-two:hover {
+    background-color: lightgray;
+}
+
+.link-button-three {
+    border: #161616;
+    background-color: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 25px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.link-button-three:hover {
+    background-color: #980505;
+}
+
+.second-section {
+    display: flex;
+    gap: 20px;
+}
+
+/*--------------------
+    Match Contents
+ ---------------- */
+
+
+.match-contents-boxes {
+
+    border-radius: 5px;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+}
+
+.match-contents {
+    box-shadow: 5px 5px 6px 3px rgb(188, 187, 187);
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+
+
+.match-contents img {
+    width: 100%;
+
+}
+
+h4 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.transfer-button {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.fa-regular {
+    color: rgb(61, 61, 61);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* ----------
+View Button
+----------*/
+.button {
+    border: #161616;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 60px;
+    text-align: center;
+    display: none;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* -------------
+    Footer
+----------  */
+footer {
+    background-color: #161616;
+    width: 100%;
+    height: 444px;
+    text-align: center;
+
+}
+
+h3 {
+    color: white;
+    padding-top: 100px;
+
+    font-size: 50px;
+
+
+}
+
+hr {
+    border: 1px solid rgba(101, 100, 100, 0.455);
+    width: 70%;
+}
+
+.services-part {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    color: #B9B9B9;
+    list-style: none;
+    margin-top: 40px;
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 25px;
+
+
+}
